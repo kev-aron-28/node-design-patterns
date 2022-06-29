@@ -1,0 +1,10 @@
+{
+  "name": "command",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "lokijs": "^1.5.12"
+  }
+}
