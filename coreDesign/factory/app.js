@@ -4,13 +4,8 @@
 const Iphone = require("./Iphone");
 const iphoneFactory = require("./iphoneFactory");
 const Samsumg = require("./Samsumg");
+const s = iphoneFactory.create('samsung', 123);
+console.log(s);
 
-const iphone = new Iphone(123);
-const samg = new Samsumg(1);
-
-
-
-iphone.displayConfig();
-samg.displayConfig();
 
 

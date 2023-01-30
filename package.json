@@ -1,0 +1,11 @@
+{
+  "name": "design-patterns-node",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kev-aron-28/node-design-patterns.git",
+  "author": "Kevaron <kevtapia75@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chance": "^1.1.9"
+  }
+}
