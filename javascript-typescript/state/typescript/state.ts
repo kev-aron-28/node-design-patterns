@@ -41,6 +41,7 @@ class EmptyState implements State {
     next(ticket: Ticket): number | null {
         return null;
     }
+    
     add(ticket: Ticket, q: number): void {
         if(ticket.limit > q) {
             ticket.quantity += q;

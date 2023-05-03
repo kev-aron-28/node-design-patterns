@@ -13,3 +13,4 @@ Blog.execute(
 Blog.execute(new Post("Second post", "This is the second post"));
 Blog.execute(new Update("Second post", "Hello i updated this post"));
 Blog.execute(new View());
+Blog.undo();
